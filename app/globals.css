@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+}
+.cutsom-x-scrollBar::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* Track */
+.cutsom-x-scrollBar::-webkit-scrollbar-track {
+  background: #dddddd;
+}
+
+/* Handle */
+.cutsom-x-scrollBar::-webkit-scrollbar-thumb {
+  background: #969696;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.cutsom-x-scrollBar::-webkit-scrollbar-thumb:hover {
+  background: #777777;
+}
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}
+.rdrMonth {
+  width: 100% !important;
+}
+.rdrCalendarWrapper {
+  width: 100% !important;
+  font-size: 16px;
+}
